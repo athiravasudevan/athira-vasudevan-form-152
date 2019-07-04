@@ -1,0 +1,122 @@
+
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+legend {
+    border: 1px solid;
+    font-size: 2rem;
+    padding: 5px;
+    background-color: #ffff;
+    box-sizing: border-box;
+}
+
+.box {
+    margin-top:0;
+    margin-right:1rem;
+    margin-bottom:1rem;
+    margin-left:0;
+    width: 48%;
+    display: inline-block; 
+}
+
+form {
+    margin-left:2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+fieldset {
+    border: 1px solid;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    border-color: #ddd;
+}
+
+input[type="text"] {
+
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="button"] {
+    height: 2em;
+    box-shadow: #000;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #6495ED;
+    width: 100%;
+}
+label {
+    display: block;
+}
+
+#message{
+    padding-left: 
+}
+
+
+input[type="button"]{
+    width: auto;
+    padding: 0 2rem;
+}
+/*#email{
+    margin-left: 1rem;
+}*/
+ /*.emailid label{
+    margin-left: 1rem;
+}*/
+
+/*mediaquery*/
+@media only screen and (min-width: 40rem) {
+    body{
+        max-width: 50rem;
+    }
+    .fullname,
+    .emailid {
+        width: 45%;
+        float: left;
+    }
+    
+     .email {
+        padding-left: 1em;
+        width: 55%;
+        margin-left: 1rem;
+    }
+    
+    .message{
+        clear: both;
+    }
+    
+    input[type="button"]{
+         width: auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 25rem) {
+
+    input[type="button"]{
+        padding: 0 2rem;
+        width: auto;
+    }
+    
+}
+
+
+
+
+
+
